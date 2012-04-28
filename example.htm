@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="jquery.emoticons.js"></script>
+
+<textarea id="emo"></textarea>
+
+<style>
+	#emo { width: 256px; height: 64px; }
+	.emo-cnt > img { cursor: pointer; padding: 4px; }
+</style>
+
+<script>
+	$(function () {
+		$('textarea#emo').emoticons({
+			basePath: './emoticons',
+			container: '<div class="emo-cnt">'
+		});
+	});
+</script>
