@@ -27,6 +27,7 @@
  *
  * @version 1.0
  * @author  kesspess
+ * @date    28. 4. 2012
  * @see     http://texy.info
  */
 (function ($) {
